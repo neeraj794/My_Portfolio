@@ -61,13 +61,27 @@ const projectsData = {
         ],
         challenges: "Ensuring secure data handling and preventing booking conflicts. Implemented Werkzeug for hashing and custom validation logic in Flask to handle concurrent requests."
     },
+    3:{
+        title: "Personal Portfolio Website",
+        category: "Frontend & JavaScript",
+        desc: "A modern, responsive portfolio website to showcase my projects, skills, and experience. Built with a focus on performance, accessibility, and user experience.",
+        tags: ["HTML5", "CSS3", "JavaScript", "Vite", "Lucide Icons"],
+        githubLink: "https://github.com/neeraj794/My_Portfolio",
+        features: [
+            "Responsive design for all devices.",
+            "Modern UI with Lucide Icons.",
+            "Smooth animations and transitions.",
+            "Accessible and SEO-friendly."
+        ],
+        challenges: "Balancing aesthetics with performance and ensuring cross-browser compatibility. Implemented CSS Grid and Flexbox for layout, along with optimized JavaScript for interactivity."
+    }
 };
 
 // Render Projects (ONLY FIRST 2)
 const projectsGrid = document.getElementById('projects-grid');
 
 if (projectsGrid) {
-    const featuredIDs = [1, 2];
+    const featuredIDs = [1, 2, 3]; // IDs of featured projects
     projectsGrid.innerHTML = featuredIDs.map(id => {
         const project = projectsData[id];
         return `
