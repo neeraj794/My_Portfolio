@@ -46,8 +46,8 @@ Installation
 
 Clone the repository:
 
-git clone [https://github.com/neeraj794/portfolio-v2.git](https://github.com/neeraj794/portfolio-v2.git)
-cd portfolio-v2
+git clone [https://github.com/neeraj794/My_Portfolio.git](https://github.com/neeraj794/My_Portfolio.git)
+cd My_Portfolio
 
 Install dependencies:
 
